@@ -10,5 +10,5 @@ function calculate () {
   let kilos = pounds * 2.2046
 
   // output
-  document.getElementById('kilos').innerHTML = 'The amount of pounds in kilos is ' + kilos + ' kg'
+  document.getElementById('answers').innerHTML = 'The amount of pounds in kilos is ' + kilos + ' kg'
 }
