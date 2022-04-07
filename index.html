@@ -45,7 +45,15 @@
             <span class="mdl-textfield__error">*Please enter a number*</span>
           </div>
         </form>
-				
+
+        <!-- Raised button with ripple -->
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="calculate()"
+        >
+          Calculate
+        </button>
+        <br></br>
         <!-- Numeric Textfield -->
         <form action="#">
           <p>Convert kilos to pounds below</p>
@@ -64,14 +72,14 @@
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()"
+          onclick="calculate2()"
         >
           Calculate
         </button>
-        <br />
+        <br></br>
         <p>
           <div id="answers">
-            <div id="area"></div>
+            <div id="pounds"></div>
             <div id="perimeter"></div>
           </div>
         </p>
