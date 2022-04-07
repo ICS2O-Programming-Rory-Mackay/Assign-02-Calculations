@@ -1,3 +1,8 @@
+// Copyright Rory Mackay
+// Created by: Rory Mackay
+// Date: March 2022
+// This file contains the JS functions for the index.html file
+
 'use strict'
 /**
  * This function calculates pounds to kilos

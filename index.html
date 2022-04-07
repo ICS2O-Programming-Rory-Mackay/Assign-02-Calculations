@@ -2,6 +2,7 @@
 <!-- Assign-02-HTML-CSS-JS -->
 <html lang="en-ca">
   <head>
+  <!-- Metadata -->
     <meta charset="utf-8">
     <meta name="description" content="Bengals Page">
     <meta name="keywords" content="immaculata, ics2o">
@@ -21,20 +22,21 @@
     <title>Pounds To Kilograms Converter</title>
   </head>
   <body>
+    <!-- For MDL compatibility -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="./js/script.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Pounds To Kilograms Converter</span>
+          <center><span class="mdl-layout-title">Pounds To Kilograms Converter</span></center>
         </div>
       </header>
       <main class="mdl-layout__content">
-        <h4>Use this tool to convert weight from pounds to kilos or vice versa!</h4>
+        <center><h4>Use this tool to convert weight from pounds to kilos or vice versa!</h4></center>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Convert pounds to kilos below</p>
-          <div class="mdl-textfield mdl-js-textfield">
+          <center><p>Convert pounds to kilos below</p></center>
+          <center><div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
@@ -43,26 +45,27 @@
             />
             <label class="mdl-textfield__label" for="inputPounds">Pounds</label>
             <span class="mdl-textfield__error">*Please enter a number*</span>
-          </div>
+          </div></center>
         </form>
 
         <!-- Raised button with ripple -->
-        <button
+        <center><button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="calculate()"
         >
           Calculate
-        </button>
+        </button></center>
         <br></br>
         <p>
         <div id="answers">
         </div>
         </p>
-        <img src="./images/twopound.webp" alt="rectangle" width="20%" height="40%"/>
+        <!-- Image -->
+        <center><img src="./images/twopound.webp" alt="rectangle" width="20%" height="40%"/></center>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Convert kilos to pounds below</p>
-          <div class="mdl-textfield mdl-js-textfield">
+          <center><p>Convert kilos to pounds below</p></center>
+          <center><div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
@@ -71,20 +74,19 @@
             />
             <label class="mdl-textfield__label" for="inputKilos">Kilograms</label>
             <span class="mdl-textfield__error">*Please enter a number*</span>
-          </div>
+          </div></center>
         </form>
-				
         <!-- Raised button with ripple -->
-        <button
+        <center><button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="calculate2()"
         >
           Calculate
-        </button>
+        </button></center>
         <br></br>
         <p>
-          <div id="answers2">
-          </div>
+          <center><div id="answers2">
+          </div></center>
         </p>
       </main>
     </div>
