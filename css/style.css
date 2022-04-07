@@ -1,0 +1,20 @@
+/* Created by: Rory Mackay
+* Created on: April 2022
+*Assign-02-Calculations
+*/
+
+body {
+  color: #003975;
+  background-color: #ffd5b3;
+}
+
+h3 {
+  padding: 40px;
+  text-align: center;
+  color: #ff4000;
+}
+
+p::selection {
+  background: #003975;
+  color: #ffd5b3;
+}
